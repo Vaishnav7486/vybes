@@ -1,0 +1,363 @@
+/* ************************** */
+/*         Hero section       */
+/* ************************** */
+
+.section-hero {
+}
+.hero-contianer {
+  background-image: url("../img/model.avif");
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  justify-content: space-between;
+  position: relative;
+}
+.navigation-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.8rem;
+}
+.nav1,
+.nav2 {
+  font-size: 1.8rem;
+}
+.heading {
+  font-size: 4.8rem;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+.nav-component2-list,
+.nav-component2-list {
+  display: flex;
+  flex-direction: row;
+  gap: 4.6rem;
+  list-style: none;
+}
+.nav-component1-list {
+}
+.nav-component2-list {
+}
+.nav-icon {
+  font-size: 1.8rem;
+}
+.nav-list-items {
+  text-decoration: none;
+  color: #f8f9fa;
+}
+
+.hero-bottom-div {
+  text-align: right;
+  padding-right: 8.6rem;
+}
+
+.hero-text {
+  position: absolute;
+  bottom: 9.6rem;
+  right: 8.6rem;
+}
+.hero-bottom-text {
+  color: #f8f9fa;
+  font-weight: 500;
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.hero-bottom-btn {
+  font-size: 1.4rem;
+  font-family: "Montserrat", sans-serif;
+  padding: 1.2rem 2.4rem;
+  border: 0.15rem solid #000;
+  border-radius: 1rem;
+  color: #f8f9fa;
+  background-color: transparent;
+  transition: all 0.3s;
+  align-self: right;
+  cursor: pointer;
+}
+
+.hero-bottom-btn:hover {
+  background-color: #f9fafb;
+  color: #000;
+  border: 0.15rem solid #f8f9fa;
+}
+
+/* *************************** */
+/*         Cards section       */
+/* *************************** */
+
+/* .step-box {
+  position: relative;
+  width: 35rem;
+  height: 20rem;
+  overflow: hidden;
+}
+
+.step-img {
+  background-image: rgba(0, 0, 0, 0.554);
+  position: absolute;
+  filter: blur(2px);
+  max-width: 100%;
+  /* height: 20rem; */
+/* height: auto; */
+/* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   height: 100%; 
+  background-size: cover;
+  background-position: top;
+}  */
+
+.section-general-cards {
+  /* background: linear-gradient(to right,#3b5bdb,#5f3dc4); */
+  margin-bottom: 6.4rem;
+}
+
+.general-cards-div {
+  margin-bottom: 15.6rem;
+}
+.card-section-heading {
+  color: #444;
+  padding: 6.8rem 1.8rem;
+}
+
+.step-box {
+  height: 24rem;
+  overflow: hidden;
+}
+.step-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 0.8rem;
+  filter: brightness(0.6);
+  transition: all 0.3s;
+}
+.step-img:hover {
+  transform: scale(1.1);
+}
+.step-text {
+  font-size: 25.8rem;
+  z-index: 4;
+  color: #111;
+}
+
+/* ************************** */
+/*        Social section      */
+/* ************************** */
+
+.section-social {
+}
+.social-container {
+  /* background-color: aqua; */
+}
+.social-heading {
+  padding: 4rem 8.6rem;
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: #555;
+}
+.social-icon-container {
+  display: flex;
+  gap: 5.6rem;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 8.6rem;
+}
+
+.social-link {
+}
+
+.social-icon1 {
+  justify-self: end;
+}
+.social-icon {
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  padding: 1.4rem;
+  font-size: 2.4rem;
+}
+
+/* ************************** */
+/*          GIT section       */
+/* ************************** */
+
+.section-get-in-touch {
+  margin-bottom: 8.6rem;
+}
+.git-container {
+  margin: 8.6rem auto;
+}
+.git-heading {
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: #444;
+  margin-bottom: 1.8rem;
+}
+.form-container {
+  text-align: center;
+  padding: 4.2rem;
+  margin: 0 auto;
+  margin-bottom: 3.2rem;
+  box-shadow: 0 0 20px #00000021;
+  border-radius: 1.2rem;
+  width: 70%;
+}
+.git-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+}
+/* .form-link:link,
+.form-link:visited {
+  color: #000 !important;
+} */
+.git-form input {
+  color: #27285c;
+  width: 70%;
+  padding: 1.4rem 1.4rem;
+  font-family: inherit;
+  border: none;
+  border-radius: 0.3rem;
+  border-bottom: 1.5px solid #27285c;
+  outline: none;
+}
+.git-form input::placeholder {
+  font-size: 1.6rem;
+}
+.send-btn {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.send-btn:hover {
+  color: #fff;
+  background-color: #27285c;
+  /* transition: 0.4s; */
+}
+.captcha-text {
+  color: #777;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-bottom: 2.4rem;
+}
+.whatsapp-img {
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-right: 0.8rem;
+}
+.whatsapp-btn-box {
+  position: relative;
+}
+.whatsapp-btn-link {
+  display: flex;
+}
+/* .whatsapp-btn{
+  font-weight: 400;
+  font-size: 1.2rem;
+  position: relative;
+  align-self: center;
+  font-family: inherit;
+  background-color: #27285c;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  margin: 1.2rem auto;
+  transition: all 0.3s;
+  cursor: pointer;
+  width: 14rem;
+  padding: 2.6rem 3.8rem;
+} */
+.whatsapp-btn:hover {
+  background-color: #27285fe5;
+}
+
+.the-whatsapp-div {
+  display: flex;
+  align-items: center;
+  background-color: #27285c;
+  padding: 1.4rem 3.8rem;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  color: #fff;
+}
+.the-whatsapp-div:hover {
+  background-color: #27285cd8;
+}
+.whatsapp-btn {
+  display: flex;
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center; */
+}
+
+/* ************************** */
+/*        footer section      */
+/* ************************** */
+
+.footer-container {
+  padding: 10.5rem 2.4rem;
+}
+.footer-heading {
+  font-size: 2.4rem;
+  font-weight: 500;
+  letter-spacing: 0.18rem;
+  margin-bottom: 2.4rem;
+  margin-top: 12.6rem;
+}
+.footer-list {
+  display: flex;
+  justify-content: center;
+  gap: 3.2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 8.6rem;
+}
+
+/* ************************** */
+/*        Sample section      */
+/* ************************** */
+
+/* .section-sample {
+  height: 100vh;
+  background: linear-gradient(to right bottom, #000, #0000ae);
+} */
+
+/* ************************** */
+/*       float btn            */
+/* ************************** */
+
+.body-container {
+  /* position: relative; */
+}
+.text-us-float-button {
+  /* position: absolute; */
+  position: fixed;
+  bottom: 6.4rem;
+  right: 6.4rem;
+}
+.float-btn {
+  height: 4.8rem;
+  width: 4.8rem;
+  padding: 3rem;
+  background-color: #e9ecef;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 0.5rem #e9ecef;
+  transition: all 0.4s;
+}
+.float-btn:hover {
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(to right bottom, #27285c 80%, #0000ae);
+  box-shadow: 0 0 1rem #fff;
+}
+.float-btn-icon {
+  font-size: 2.2rem;
+  transform: translate(-50%, -50%);
+}
